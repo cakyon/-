@@ -1,0 +1,72 @@
+#news-container {
+    background: url(../img/title-1.png) no-repeat top center;
+    padding-top: 230px;
+    position: relative;
+    margin-top: -290px;
+    z-index: 1;
+}
+
+#news-container .news-list {
+    width: 1000px;
+    margin: 0 auto;
+    height: 283px;
+    background: url(../img/line.png) right no-repeat;
+}
+
+.news-list li{
+    float: left;
+    width: 33.3%;
+    padding: 10px 44px;
+    height: 100%;
+    background: url(../img/line.png) no-repeat;
+}
+
+#news-container .time {
+    font-size: 14px;
+    color: #e10200;
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+#news-container .title {
+    padding: 19px 0 17px 0;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#news-container .text {
+    font-size: 12px;
+    line-height: 20px;
+    color: #767676;
+    height: 140px;
+    overflow: hidden;
+
+    
+}
+
+.gongdian {
+    background: url(../img/taihedian.jpg);
+    width: 345px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.picture-list {
+    width: 1045px;
+    height: 256px;
+    margin: 0 auto;
+}
+
+.picture-list li{
+    float: left;
+    margin-top: 40px;
+    padding-left: 35px;
+}
+.picture-list p {
+    text-align: center;
+    margin-top: 20px;
+}

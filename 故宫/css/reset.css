@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    transition: 0.3s;
+}
+a:hover {
+    color: #bf0400;
+}
+body {
+    min-width: 1200px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

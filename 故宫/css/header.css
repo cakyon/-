@@ -1,0 +1,89 @@
+
+/* 头部背景 */
+#header {
+    background: url(../img/topnav_bg.png);
+    width: 990px;
+    height: 112px;
+    margin: 0 auto;
+    padding: 0 94px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 头部logo */
+#header h1{
+    display: none;
+}
+#header .logo {
+    background: url(../img/logo.png);
+    width: 73px;
+    height: 94px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -36.5px;
+}
+/* 头部导航 */
+#header .nav {
+    margin-top: 12px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 15px;
+}
+#header .nav li {
+    float: left;
+    padding: 0 15px 0 19px;
+    background: url(../img/icon.png) no-repeat;
+    background-position: 0 25px;
+    
+}
+
+#header .navleft {
+    float: left;
+}
+#header .navright {
+    float: right;
+}
+#header .search a{
+    width: 18px;
+    height: 18px;
+    background:url(../img/icon.png) no-repeat;
+    background-position: 0 -73px;
+    display: block;
+    margin: 17px 15px 0 24px;
+    margin-left: 5px;
+}
+
+#header .bell {
+    background: url(../img/bell.png) no-repeat;
+    width: 59px;
+    height: 107px;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 55px;
+    transform: rotate(0deg);
+    transform-origin: top center;
+    animation: swing 2s infinite;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+#banner {
+    transform:translateY(-112px);
+}
+
+#banner img {
+     width: 100%;
+     display: block;
+}

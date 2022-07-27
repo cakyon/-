@@ -1,0 +1,140 @@
+.map {
+    margin-top: 100px;
+    background:url(../img/title-2.png) no-repeat center 40px,
+    url(../img/taihe.png)no-repeat center;
+    height: 869px;
+    position: relative;
+}
+
+.map .teacher {
+    background: url(../img/teacher.png) no-repeat ;
+    width: 141px;
+    height: 158px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -79px;
+    margin-left: -70.5px;
+}
+
+.map .teacher.left {
+    background-position: 0 -158px;
+}
+
+.map .item-list {
+    width: 500px;
+    height: 500px;
+    outline: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -250px;
+    margin-top: -235px;
+}
+
+.map .item-list  li{
+    width: 170px;
+    height: 160px;  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -85px;
+    margin-top: -80px;
+}
+
+.title3 img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* app */
+#more {
+    width: 1000px;
+    height: 607px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background: url(../img/stitle-1.png) no-repeat left top;
+}
+
+#more .app {
+    width: 568px;
+    height: 443px;
+    padding-left: 58px;
+    float: left;
+}
+#more .app img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.5)
+}
+#more .app li {
+    float: left;
+    width: 100px;
+    margin: 0 8px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#more .app p {
+    margin-top: 8px;
+}
+
+#more .attend {
+    width: 398px;
+    height: 483px;
+    float: right;
+    background: url(../img/stitle-2.png) no-repeat, 
+    url(../img/sina.png) no-repeat right top ,
+    url(../img/weixin.png) no-repeat 67px 381px;
+
+}
+
+
+#more .attend img {
+    display: block;
+    padding-left: 103px;
+}
+
+#more .store {
+    width: 568px;
+    float: left;
+    padding: 30px 0 0 83px;
+    background: url(../img/stitle-3.png) no-repeat left top,
+    url(../img/line2.jpg) no-repeat 83px top;
+}
+
+#more .store li {
+    float: left;
+    margin: 0 50px 45px 0;
+    width: 170px;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    line-height: 42px;
+    font-size: 14px;
+    padding-bottom: 30px;
+    
+}
+
+#more .store img {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    transition: 0.3s;
+}
+
+#more .store li:hover img {
+    transform: translateX(-10px);
+}
+
+
+
+
+
+
+
